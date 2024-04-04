@@ -1,0 +1,24 @@
+/*===== Google Font =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+
+:root{
+    /*==== Cores ====*/
+    --azul: #007FFC;
+    --amarelo: #FEED01;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --vermelho: #E21111;
+    --amarelo-claro: #DDE211;
+    --azul-claro: #005FCF;
+    --verde: #06601F;
+
+    /*==== Fonte e Tipografia ====*/
+    --body-font: 'Poppins', sans-serif;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+
+    /*==== Box Shadow ===*/
+    --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
