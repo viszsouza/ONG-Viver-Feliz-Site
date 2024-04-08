@@ -12,6 +12,7 @@
     --amarelo-claro: #DDE211;
     --azul-claro: #005FCF;
     --verde: #06601F;
+    --shadow: rgba(0, 0, 0, 0.468) 0px 5px 15px;
 
     /*==== Fonte e Tipografia ====*/
     --body-font: 'Poppins', sans-serif;
@@ -39,7 +40,7 @@ body {
 
 main {
     flex: 1; 
-  }
+}
 
 h1 {
     font-family: Quicksand Bold;

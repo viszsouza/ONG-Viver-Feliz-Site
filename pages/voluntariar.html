@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/voluntariar.css">
+</head>
+<body>
+    <header> 
+        <a href="index.html">
+            <div id="logo">
+                <img src="/images/logo.png" alt="logo">
+            </div>
+        </a>
+        <ul id="navbar">
+            <li><a href="pages/sobre-nos.html"><Strong>Sobre Nós</Strong></a></li>
+            <li><a href="pages/voluntariar.html"><Strong>Voluntariar</Strong></a></li>
+            <li><a href="pages/ajudar.html"><Strong>Ajudar</Strong></a></li>
+            <li><a href=""><Strong>Contato</Strong></a></li>
+        </ul>
+        <ul id="log">
+            <li><a href="pages/cadastro.html"><Strong>Cadastre-se</Strong></a></li>
+        </ul>
+        <h1 id="nome-marca">Viver Feliz</h1>
+        <button class="menu-button" onclick="openNav()">
+            <img src="images/barra-de-menu.png" alt="menu">
+        </button>
+        <div id="borrar"></div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./images/fechar.png" alt=""></a>
+
+            <div class="loginnavmob">
+                <img src="img/usuario.png" alt="">
+                    <a href="pages/login.html"><h2>Faça seu login!</h2></a>
+            </div>
+            <ul>
+            <li><a href="/index.html">Início</a></li>
+            <li><a href="/pages/sobre-nos.html">Quem Somos</a></li>
+            <li><a href="pages/mural.html">Mural</a></li>
+            <li><a href="pages/adotar.html">Adotar</a></li>
+            <li><a href="pages/cadastraranimal.html">Cadastrar Animal</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="textos-inicio">
+            <h1>Seja bem-vindo ao nosso programa de voluntariado!</h1>
+            <p>Estamos muito felizes com seu interesse em se juntar a nós e fazer parte de nossa equipe dedicada de voluntários comprometidos em fazer a diferença.
+            </p>
+        </div>
+
+        <!-- Container -->
+        <div class="container-form">
+            <div class="bg-form">
+                <div class="texto-form">
+                    <p>Por favor, preencha o formulário abaixo para nos fornecer algumas informações sobre você e seus interesses em voluntariado.</p>
+                </div>
+                
+                <form action="">
+                    <div class="form">
+                        <input type="text" name="nome-completo" id="" placeholder="Nome: Digite seu nome completo...">
+                        <input type="text" name="nome-completo" id="" placeholder="Data: 00/00/0000">
+                        <input type="text" name="nome-completo" id="" placeholder="Endereço: Digite seu Endereço completo...">
+                        <input type="text" name="nome-completo" id="" placeholder="E-mail: Digite seu E-mail...">
+                        <input type="text" name="nome-completo" id="" placeholder="Telefone: (00) 0 0000-0000">
+                        <input type="text" name="nome-completo" id="" placeholder="Áreas de interesse (exemplo: educação, saúde, eventos, etc.)">
+                    </div>
+                    <button>Enviar</button>
+                </form>
+        
+                <div class="texto-form-2">
+                    <p>Agradecemos seu compromisso em fazer uma diferença positiva em nossa comunidade. Assim que recebermos seu formulário, entraremos em contato para discutir as oportunidades de voluntariado disponíveis e os próximos passos.</p>
+                </div>
+            </div>    
+        </div>
+        
+    </main>
+</body>
+</html>
