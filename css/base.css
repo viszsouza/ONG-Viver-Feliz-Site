@@ -248,10 +248,15 @@ img[src*="logo"] {
 /*Footer*/
 
 footer {
-    width: 100%;
-    color: var(--cor-neutra-0);
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333; /* Cor de fundo do footer */
+   color: white; /* Cor do texto no footer */
+   text-align: center; /* Alinhar o texto no centro */
+   padding: 5px; /* Espaçamento interno */
 }
-
 .footer-link{
     text-decoration: none;
 }
