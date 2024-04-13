@@ -63,7 +63,7 @@ form button{
     padding: 10px 25px 10px 25px;
     border-radius: 5px;
     margin-left: 10px;
-    background-color: var(--azul);
+    background-color: #18A0FB;
     color: var(--branco);
     cursor: pointer; 
 }
