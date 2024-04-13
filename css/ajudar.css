@@ -9,21 +9,30 @@ main{
     flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
-    margin-top: 20px; 
+    
+    
+     
     
 }
+
+
 
 .caixas_ajudar {
     width: 686px;
     height: 800px;
     background-color: #005FCF;
     border-radius: 25px;
-    margin: 10px;
+    margin: 15px;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
+}
+  
+.titulo-ajudar{
+    margin: center;
 }
     .botao_ajudar{
         display: block; 
@@ -43,4 +52,11 @@ main{
       .imagem {
         width: 100%;
         border-top-left-radius: 10px; 
-        border-top-right-radius: 10px;}
+        border-top-right-radius: 10px;
+    }
+
+
+    #titulo-ajudar{
+        text-align: center;
+
+}
