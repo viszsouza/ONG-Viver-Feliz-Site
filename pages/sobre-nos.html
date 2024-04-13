@@ -6,6 +6,7 @@
     <title>ONG Viver Feliz</title>
     <link rel="icon do site" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/sobre-nos.css">
+    <script type="text/javascript" src="scripts/script.js" defer></script>
 </head>
 <body>
     <header> 
@@ -21,7 +22,13 @@
             <li><a href="/pages/contato.html"><Strong>Contato</Strong></a></li>
         </ul>
         <ul id="log">
-            <li><a href="/pages/cadastro.html"><Strong>Cadastre-se</Strong></a></li>
+            <li class="cadastro-button">
+                <a href="/pages/cadastro.html">
+                    <button> 
+                        <p id="button-text"><strong>Cadastrar-se</strong></p>
+                    </button>
+                </a>
+            </li>
         </ul>
         <h1 id="nome-marca">Viver Feliz</h1>
         <button class="menu-button" onclick="openNav()">
@@ -44,21 +51,32 @@
             </ul>
         </div>
     </header>
-
     <main>
-        <div id="about-us">
-            <h1>Sobre Nós</h1>
-            <p>Bem-vindo à [Nome da ONG], uma organização comprometida com a transformação positiva e duradoura das comunidades que servimos. Desde [ano de fundação], temos trabalhado incansavelmente para enfrentar desafios sociais e promover o bem-estar de pessoas em situação de vulnerabilidade.
+        <div class="container">
+            <div class="content">
+                <div class="about">
+                    <h2>Sobre nós</h2>
+                    <p id="texto-corpo">
+                        <p class="about-texto">Bem-vindo à <strong>Viver Feliz</strong>, uma organização comprometida com a transformação positiva e duradoura das comunidades que servimos. Desde <strong>2020</strong>, temos trabalhado incansavelmente para enfrentar desafios sociais e promover o bem-estar de pessoas em situação de vulnerabilidade.</p>
 
-                Nosso propósito é claro: capacitar indivíduos, fortalecer famílias e construir comunidades mais resilientes. Acreditamos firmemente que cada pessoa tem o potencial de criar um impacto significativo no mundo, e é por isso que nos dedicamos a fornecer os recursos e o apoio necessários para que isso aconteça.
-                
-                Nossos programas e projetos abrangem uma variedade de áreas, incluindo educação, saúde, nutrição, desenvolvimento comunitário e resposta a emergências. Trabalhamos em parceria com líderes locais, organizações da sociedade civil e outras partes interessadas para identificar as necessidades mais prementes e implementar soluções sustentáveis e baseadas na comunidade.
-                Na [Nome da ONG], valorizamos a transparência, a responsabilidade e a colaboração. Nossa equipe dedicada de funcionários e voluntários está comprometida em agir com integridade e empreender esforços conjuntos para alcançar nossos objetivos comuns.
-                Além disso, reconhecemos a importância do envolvimento da comunidade e buscamos ativamente ouvir e envolver os beneficiários de nossos programas em todas as etapas do processo. Acreditamos que, ao trabalharmos juntos, podemos criar um impacto ainda maior e construir um futuro mais promissor para todos.
-                Junte-se a nós nesta jornada de esperança, solidariedade e transformação. Juntos, podemos fazer a diferença.
-                
-                Obrigado por seu interesse e apoio à [Nome da ONG].
-                </p>
+                        <p class="about-texto">Nosso propósito é claro: capacitar indivíduos, fortalecer famílias e construir comunidades mais resilientes. Acreditamos firmemente que cada pessoa tem o potencial de criar um impacto significativo no mundo, e é por isso que nos dedicamos a fornecer os recursos e o apoio necessários para que isso aconteça.</p>
+                        
+                        <p class="about-texto">Nossos programas e projetos abrangem uma variedade de áreas, incluindo educação, saúde, nutrição, desenvolvimento comunitário e resposta a emergências. Trabalhamos em parceria com líderes locais, organizações da sociedade civil e outras partes interessadas para identificar as necessidades mais prementes e implementar soluções sustentáveis e baseadas na comunidade.</p>
+
+                        <p class="about-texto">
+                            Na <strong>Viver Feliz</strong>, valorizamos a transparência, a responsabilidade e a colaboração. Nossa equipe dedicada de funcionários e voluntários está comprometida em agir com integridade e empreender esforços conjuntos para alcançar nossos objetivos comuns.
+                            Além disso, reconhecemos a importância do envolvimento da comunidade e buscamos ativamente ouvir e envolver os beneficiários de nossos programas em todas as etapas do processo. Acreditamos que, ao trabalharmos juntos, podemos criar um impacto ainda maior e construir um futuro mais promissor para todos.
+                        </p>
+                        <p>
+                            Junte-se a nós nesta jornada de esperança, solidariedade e transformação. Juntos, podemos fazer a diferença.
+                        </p>
+                    </p>
+                    <p id="texto-final"> Obrigado por seu interesse e apoio à <Strong>ONG Viver Feliz</Strong>.</p>
+                </div>
+                <div class="image">
+                    <img src="https://via.placeholder.com/1000x1700" alt="Imagem da ONG">
+                </div>
+            </div>
         </div>
     </main>
     <footer>
@@ -66,18 +84,18 @@
             <div id="footer_contacs">
                     <h1>Redes Sociais</h1>
                     <div id="footer_social_media">
-                    <a href="https://www.instagram.com/meuamigaozinho/" class="footer-link" id="instagram" target="_blank">
+                    <a href="https://www.instagram.com/ong_viver.feliz/" class="footer-link" id="instagram" target="_blank">
                     <i class="fa-brands fa-instagram" ></i>
                 </a>
-                    <a href="https://www.facebook.com/meuamigaozinho" class="footer-link" id="facebook" target="_blank">
-                    <i class="fa-brands fa-facebook-f" ></i>
+                    <a href="https://wa.me/8195292745" class="footer-link" id="whatsapp" target="_blank">
+                    <i class="fa-brands fa-whatsapp-f" ></i>
                     </a>
         </div>
     </div>
         <ul class="footer-list">
                 <h1>Suporte</h1>
             <li>
-                <a href="https://api.whatsapp.com/send?phone=551112345678"class=footer-link target="_blank">WhatsApp</a>
+                <a href="https://wa.me/8195292745" target="_blank">WhatsApp</a>
             </li>
             <li>
                 <a href="mailto:meuamigaozinhofc@gmail.com"class=footer-link type="Email">Email</a>
