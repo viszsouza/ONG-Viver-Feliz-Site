@@ -1,2 +1,5 @@
 @import url(base.css);
 
+main{
+    background-color: var(--amarelo);
+}

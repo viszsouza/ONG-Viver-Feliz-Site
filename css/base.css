@@ -66,27 +66,6 @@ p {
     src: url(/fonts/NotoSansLaoLooped-VariableFont_wdth\,wght.ttf);
 }
 
-@font-face {
-    font-family: Quicksand Bold;
-    src: url(../fonts/Quicksand-Bold.otf);
-}
-
-@font-face {
-    font-family: Quicksand;
-    src: url(../fonts/Quicksand-Regular.otf);
-}
-
-@font-face {
-    font-family: Poppins Semibold;
-    src: url(../fonts/Poppins-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Regular.ttf);
-}
-
-
 /*Header*/
 
 header {
@@ -248,14 +227,8 @@ img[src*="logo"] {
 /*Footer*/
 
 footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #333; /* Cor de fundo do footer */
-   color: white; /* Cor do texto no footer */
-   text-align: center; /* Alinhar o texto no centro */
-   padding: 5px; /* Espaçamento interno */
+
+
 }
 .footer-link{
     text-decoration: none;
@@ -305,7 +278,7 @@ footer {
 }
 
 #facebook {
-    background-color: #4267b3;
+    background-color: #09e426;
 }
 
 .footer-list {
@@ -322,9 +295,7 @@ footer {
 color:var(--cor-neutra-0);
 }
 
-.footer-list .footer-link:hover {
-    color: #F7A2CB;
-}
+
 
 #input_group {
     display: flex;
