@@ -1,4 +1,10 @@
- 
+@import url("base.css");
+
+main{
+    background-color: var(--amarelo);
+}
+
+  
   .cadastro-area {
     background-color: #f0f0f0;
     padding: 20px;

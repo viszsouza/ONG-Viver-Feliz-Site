@@ -1,24 +1,46 @@
+@import url("base.css");
+
+main{
+    background-color: var(--amarelo);
+}
+
 .container {
     display: flex;
-    flex-wrap: wrap; /* Permite que as caixas quebrem para a próxima linha */
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Espaço acima das caixas */
+    margin-top: 20px; 
+    
 }
 
 .caixas_ajudar {
-    width: 200px;
-    height: 200px;
-    background-color: #f80505;
-    border: 1px solid #000000;
+    width: 686px;
+    height: 800px;
+    background-color: #005FCF;
+    border-radius: 25px;
     margin: 10px;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
     .botao_ajudar{
-        width: auto;
+        display: block; 
+        margin-top: 10px;
+        border-radius: 5px; 
+        background-color: #4caf50;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        border: none;
         cursor: pointer;
     }
+
+    button:hover {
+        background-color: #DDE211;
+      }
+
+      .imagem {
+        width: 100%;
+        border-top-left-radius: 10px; 
+        border-top-right-radius: 10px;}
