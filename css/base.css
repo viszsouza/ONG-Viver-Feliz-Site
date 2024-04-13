@@ -45,7 +45,6 @@ main {
     font-family: Montserrat Semibold;
     src: url(/fonts/NotoSansLaoLooped-VariableFont_wdth\,wght.ttf);
 }
-
 /*Header*/
 header {
     display: flex;
@@ -224,15 +223,14 @@ img[src*="logo"] {
 /*Footer*/
 
 footer {
-
-
+    width: 100%;
+    color: var(--cor-neutra-0);
 }
 .footer-link{
     text-decoration: none;
 }
 
 #footer_content{
-    background-color: var(--azul-footer);
     display: flex;
    justify-content: space-between;
     padding: 3rem 3.5rem;
@@ -287,12 +285,9 @@ footer {
 
 }
 
-
 .footer-list .footer-link{
 color:var(--cor-neutra-0);
 }
-
-
 
 #input_group {
     display: flex;
