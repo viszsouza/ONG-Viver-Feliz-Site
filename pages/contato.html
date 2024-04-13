@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONG Viver Feliz</title>
     <link rel="icon do site" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/contato.css">
 </head>
 <body>
     <header> 
@@ -50,8 +50,45 @@
             </ul>
         </div>
     </header>
+    <div id="texto_contato">
+        <h1>Ficamos felizes em ouvir de você!</h1>
+        <p>Se você tiver alguma dúvida, sugestão, ou simplesmente quiser entrar em contato conosco.</p>
+    </div>
+    <div class="cadastro-area">
+        <h3>por favor, sinta-se à vontade para preencher o formulário abaixo. Faremos o nosso melhor para responder o mais rápido possível</h3>
+        <form action="#" method="post">
+            <label for="nomeCompleto">Nome Completo:</label><br>
+                <input type="text" id="nomeCompleto" name="nomeCompleto" class="form-input" required>
+            
+            <br>
+
+            <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="exemplo@gmail.com"class="form-input" required>
+            
+            <br>
+
+            <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone"placeholder="(81) 90000-0000" class="form-input" required>
+            
+            <br>
+
+            <label for="assunto">Assunto:</label><br>
+                <input type="text" id="assunto" name="assunto" class="form-input" required>
+            
+            <br>
+
+            <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" class="form-input"placeholder="digite sua mensagem" rows="4" required></textarea>
+            
+            <br>
+
+            <input type="submit" value="Enviar" class="form-button">
+        </form>
+    </div>
+    
 </body>
 <footer>
 
 </footer>
+</div>
 </html>
