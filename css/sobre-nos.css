@@ -24,9 +24,9 @@ body {
     align-items: center;
 }
 .about {
-    flex: 3;
+    flex: 2; 
     padding: 1px;
-    margin-right: 150px;
+    max-width: 600px; 
 }
 .about h2 {
     font-size: 48px;
@@ -42,8 +42,7 @@ body {
 .image {
     flex: 1;
     padding: 5px;
-    width: 1400px; 
-    height: 500px;
+
 }
 #texto-corpo{
     margin-bottom: 10px;
@@ -53,10 +52,9 @@ body {
     margin-top: 30px;
 }
 .image img {
-    height: auto;
+    max-width: 100%; /* Ajuste para que a imagem seja responsiva */
+    height: 750px;
     display: block;
-    width: 450px; 
-    height: auto;
     border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
@@ -68,3 +66,4 @@ body {
         padding: 10px;
     }
 }
+
