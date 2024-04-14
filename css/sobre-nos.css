@@ -42,8 +42,8 @@ body {
 .image {
     flex: 1;
     padding: 5px;
-    width: 300px; 
-    height: auto;
+    width: 1400px; 
+    height: 500px;
 }
 #texto-corpo{
     margin-bottom: 10px;
