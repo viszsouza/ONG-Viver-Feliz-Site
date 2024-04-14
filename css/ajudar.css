@@ -9,6 +9,7 @@ main{
     flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     
     
      
@@ -29,18 +30,21 @@ main{
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
+    
+    
 }
   
 .titulo-ajudar{
     margin: center;
 }
-    .botao_ajudar{
-        display: block; 
+
+    #botao-ajudar{
+        display:  block; 
         margin-top: 10px;
-        border-radius: 5px; 
-        background-color: #4caf50;
-        color: #FFFFFF;
-        padding: 10px 20px;
+        border-radius: 15px; 
+        background-color: var(--amarelo);
+        color: var(--preto) ;
+        padding: 10px 30px;
         border: none;
         cursor: pointer;
     }
@@ -50,9 +54,9 @@ main{
       }
 
       .imagem {
-        width: 100%;
-        border-top-left-radius: 10px; 
-        border-top-right-radius: 10px;
+        width: 100%;    
+        height: 50%; 
+        object-fit: cover;
     }
 
 
