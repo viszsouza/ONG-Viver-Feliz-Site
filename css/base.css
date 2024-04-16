@@ -113,6 +113,15 @@ img[src*="logo"] {
     height: 40px;
 }
 
+#logo2 {
+    display: flex;
+    align-items: center; 
+}
+
+#logo2 img {
+    height: 40px;
+    margin-right: 10px; 
+}
 
 
 /*Mobile*/
@@ -166,7 +175,7 @@ img[src*="logo"] {
         width: 0%;
         height: 100%;
         display: block;
-        background-color:  #79B6E3;
+        background-color:  var(--azul);
         z-index: 9;
         position: fixed;
         right: 0;
@@ -219,7 +228,7 @@ img[src*="logo"] {
         padding-left: 3%;
         padding-bottom: 10%;
         border-bottom: 3px inset black;
-        background-color: #0194e4;
+        background-color: var(--azul-claro);
     }
 
     .loginnavmob h2{
