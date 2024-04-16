@@ -7,3 +7,18 @@ function closeNav() {
     document.getElementById("myNav").style.width = '0%';
     document.getElementById("borrar").style.width = '0%';
 }
+
+//Alerta enviar msg
+
+const buttonForm = document.getElementById("btn-form")
+const loader = document.getElementById("loader")
+
+buttonForm.addEventListener("click", function(){
+
+    loader.style.visibility = "visible"
+
+    setTimeout(function(){
+        loader.style.visibility = "hidden"
+    }, 3000)
+
+})

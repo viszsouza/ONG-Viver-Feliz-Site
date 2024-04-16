@@ -63,22 +63,40 @@
                     <p>Por favor, preencha o formulário abaixo para nos fornecer algumas informações sobre você e seus interesses em voluntariado.</p>
                 </div>
                 
-                <form action="">
+                <form action="https://formsubmit.co/vini.nelso@gmail.com" method="POST">
                     <div class="form">
-                        <input type="text" name="nome-completo" id="" placeholder="Nome Completo">
-                        <input type="text" name="nome-completo" id="" placeholder="Data de Nascimento">
-                        <input type="text" name="nome-completo" id="" placeholder="Endereço">
-                        <input type="text" name="nome-completo" id="" placeholder="E-mail">
-                        <input type="text" name="nome-completo" id="" placeholder="Telefone *(xx)xxxxx-xxxx*">
-                        <input type="text" name="nome-completo" id="" placeholder="Áreas de interesse (exemplo: educação, saúde, eventos, etc.)">
+                        <input type="text" name="nome-completo" id="" placeholder="Nome Completo" required>
+                        <input type="date" name="data" id="" placeholder="Data de Nascimento" required>
+                        <input type="text" name="RG" id="" placeholder="RG: *000.000.000-00*" required>
+                        <input type="text" name="CPF" id="" placeholder="CPF: *000.000.000-00*" required>
+                        <input type="text" name="endereço" id="" placeholder="Endereço" required>
+                        <input type="text" name="cidade" id="" placeholder="Cidade">
+                        <input type="email" name="email" id="" placeholder="E-mail" required>
+                        <input type="text" name="telefone" id="" placeholder="Telefone *(xx)xxxxx-xxxx*" required>
+                        <input type="text" name="area-de-interesse" id="" placeholder="Áreas de interesse (exemplo: educação, saúde, eventos, etc.)" required>
+                        <input type="text" name="dias" id="" placeholder="Dias da semana" required>
+                        <input type="text" name="horario" id="" placeholder="Horário" required>
+                        <input type="text" name="local" id="" placeholder="Local">
+
+                        <!-- Adicionando prox página | Colocar o dominio aqui -> value="http://127.0.0.1:5500/"-->
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <!-- Adicionando Assunto -->
+                        <input type="hidden" name="_subject" value="Novo Voluntário!">
+                        <!-- Adicionando Template -->
+                        <input type="hidden" name="_template" value="table">
                     </div>
-                    <button>Enviar</button>
+                    <button type="submit" id="btn-form">Enviar</button>
                 </form>
         
                 <div class="texto-form-2">
                     <p>Agradecemos seu compromisso em fazer uma diferença positiva em nossa comunidade. Assim que recebermos seu formulário, entraremos em contato para discutir as oportunidades de voluntariado disponíveis e os próximos passos.</p>
                 </div>
             </div>    
+        </div>
+        <div class="bg-loader" id="loader">
+            <div class="centraliza">
+                <div class="loader"></div>
+            </div>
         </div>
         
     </main>
@@ -100,5 +118,8 @@
     <div id="copyright">
         &copy; 2024 Todos os Direitos Reservados 
     </div>  
+
+    <script src="/scripts/script.js"></script>
+
 </body>
 </html>

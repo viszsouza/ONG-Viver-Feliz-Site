@@ -62,16 +62,29 @@
                     <p>por favor, sinta-se à vontade para preencher o formulário abaixo. Faremos o nosso melhor para responder o mais rápido possível.</p>
                 </div>
                 
-                <form action="">
+                <form action="https://formsubmit.co/vini.nelso@gmail.com" method="POST">
                     <div class="form">
-                        <input type="text" name="nome-completo" id="" placeholder="Nome completo">
-                        <input type="email" name="nome-completo" id="" placeholder="E-mail">
-                        <input type="number" name="nome-completo" id="" placeholder="Telefone">
-                        <input type="text" name="nome-completo" id="" placeholder="Assunto">
-                        <input type="textarea" name="nome-completo" id="caixa-mensagem" placeholder="Mensagem">
+                        <input type="text" name="nome-completo" id="" placeholder="Nome completo" required>
+                        <input type="email" name="email" id="" placeholder="E-mail" required>
+                        <input type="text" name="telefone" id="" placeholder="Telefone" required>
+                        <input type="text" name="assunto" id="" placeholder="Assunto" required>
+                        <input type="textarea" name="nome-completo" id="caixa-mensagem" placeholder="Mensagem" required>
+
+                        <!-- Adicionando prox página | Colocar o dominio aqui -> value="http://127.0.0.1:5500/"-->
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <!-- Adicionando Assunto -->
+                        <input type="hidden" name="_subject" value="Novo Contato!">
+                        <!-- Adicionando Template -->
+                        <input type="hidden" name="_template" value="table">
                     </div>
-                    <button>Enviar</button>
+                    <button type="submit">Enviar</button>
                 </form>
+
+                <div class="bg-loader" id="loader">
+                    <div class="centraliza">
+                        <div class="loader"></div>
+                    </div>
+                </div>
         
                 <div class="texto-form-2">
                     <p>Agradecemos seu interesse em entrar em contato conosco e por apoiar nossa missão. 
@@ -100,5 +113,6 @@ Sua contribuição é fundamental para o nosso trabalho e estamos ansiosos para 
     <div id="copyright">
         &copy; 2024 Todos os Direitos Reservados 
     </div> 
+
 </body>
 </html>
