@@ -5,6 +5,11 @@ body {
 
 }
 
+.espacform {
+    margin-bottom: 50px;
+    color: #FEED01;
+}
+
 #fundof {
     display: inline-block;
     margin: auto;
@@ -37,4 +42,12 @@ button {
     cursor: pointer;
     color: white;
     background-color: #005FCF;
+}
+
+footer {
+    background-color: white;
+}
+
+#copyright {
+    background-color: white;
 }
