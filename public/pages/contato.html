@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Viver Feliz</title>
+    <link rel="icon do site" href="/public/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/public/css/contato.css">
+    <script src="/public/scripts/script.js" defer></script>
+</head>
+<body>
+        <header> 
+            <a href="/public/index.html">
+                <div id="logo">
+                    <img src="/public/images/logo.png" alt="logo">
+                </div>
+            </a>
+            <ul id="navbar">
+                <li><a href="/public/pages/sobre-nos.html"><strong>Sobre Nós</strong></a></li>
+                <li><a href="/public/pages/voluntariar.html"><strong>Voluntariar</strong></a></li>
+                <li><a href="/public/pages/ajudar.html"><strong>Ajudar</strong></a></li>
+                <li><a href="/public/pages/contato.html"><strong>Contato</strong></a></li>
+                <li><a href="/public/pages/cadastro.html" class="cadastro-button"><strong>Cadastrar-se</strong></a></li>
+            </ul>
+            <h1 id="nome-marca">Viver Feliz</h1>
+            <button class="menu-button" onclick="openNav()">
+                <img src="/public/images/barra-de-menu.png" alt="menu">
+            </button>
+            <div id="borrar"></div>
+            
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="/images/fechar.png" alt=""></a>
+                <div class="loginnavmob">
+                    <a href="/public/index.html">
+                        <div id="logo2">
+                            <img src="/public/images/logo.png" alt="logo">
+                            <Strong>
+                                <p>Viver Feliz</p>
+                            </Strong>
+                        </div>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="/public/index.html"><Strong>Início</Strong></a></li>
+                    <li><a href="/public/pages/sobre-nos.html"><Strong>Sobre Nós</Strong></a></li>
+                    <li><a href="/public/pages/voluntariar.html"><Strong>Voluntariar</Strong></a></li>
+                    <li><a href="/public/pages/ajudar.html"><Strong>Ajudar</Strong></a></li> 
+                    <li><a href="/public/pages/contato.html"><Strong>Contato</Strong></a></li>
+                </ul>
+            </div>
+        </header>
+    <main>
+        <div class="textos-inicio">
+            <h1>Ficamos felizes em ouvir de você!</h1>
+           <p>Se você tiver alguma dúvida, sugestão, ou simplesmente quiser entrar em contato conosco.</p>
+            
+        </div>
+
+        <!-- Container -->
+        <div class="container-form">
+            <div class="bg-form">
+                <div class="texto-form">
+                    <p>por favor, sinta-se à vontade para preencher o formulário abaixo. Faremos o nosso melhor para responder o mais rápido possível.</p>
+                </div>
+                
+                <form action="https://formsubmit.co/vini.nelso@gmail.com" method="POST">
+                    <div class="form">
+                        <input type="text" name="nome-completo" id="" placeholder="Nome completo" required>
+                        <input type="email" name="email" id="" placeholder="E-mail" required>
+                        <input type="text" name="telefone" id="" placeholder="Telefone" required>
+                        <input type="text" name="assunto" id="" placeholder="Assunto" required>
+                        <input type="textarea" name="nome-completo" id="caixa-mensagem" placeholder="Mensagem" required>
+
+                        <!-- Adicionando prox página | Colocar o dominio aqui -> value="http://127.0.0.1:5500/"-->
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <!-- Adicionando Assunto -->
+                        <input type="hidden" name="_subject" value="Novo Contato!">
+                        <!-- Adicionando Template -->
+                        <input type="hidden" name="_template" value="table">
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <div class="bg-loader" id="loader">
+                    <div class="centraliza">
+                        <div class="loader"></div>
+                    </div>
+                </div>
+        
+                <div class="texto-form-2">
+                    <p>Agradecemos seu interesse em entrar em contato conosco e por apoiar nossa missão. 
+Sua contribuição é fundamental para o nosso trabalho e estamos ansiosos para ouvir suas ideias e sugestões.</p>
+                </div>
+            </div>    
+        </div>
+        
+    </main>
+    
+
+   
+
+    <footer>
+        <div class="container-footer">
+            <ul>
+                <h3>ONG - Viver Feliz</h3>
+                <P id="redes">Redes Sociais</P>
+                <div class="redes-sociais">
+                    <a href="https://www.instagram.com/ong_viver.feliz"><img src="/public/images/logo_instagram.png" alt="Logo Instagram" id="instagram" target="_blank"></a>
+                    <a href="https://wa.me/8195292745"><img src="/public/images/logo_whatsapp.png" alt="Logo WhatsApp" id="whatsapp" target="_blank"></a>
+                </div>
+            </ul>
+
+            <ul>
+                <h3>Link</h3>
+                <li><a href="/public/pages/sobre-nos.html">Sobre nós</a></li>
+                <li><a href="/public/pages/voluntariar.html">Voluntariar</a></li>
+                <li><a href="/public/pages/ajudar.html">Ajudar</a></li>
+                <li><a href="/public/pages/contato.html">Contato</a></li>
+                <li><a href="/public/pages/cadastro.html">Cadastrar-se</a></li>
+            </ul>
+
+            <ul>
+                <h3>Contato</h3>
+                <li><p>(81) 99529-2745</p></li>
+                <li><p>email@gmail.com</p></li>
+                <li><p>Localização</p></li>
+            </ul>
+
+        </div>
+    </footer>
+    <div id="copyright">
+        &copy; 2024 Todos os Direitos Reservados 
+    </div>  
+</body>
+</html>
