@@ -71,7 +71,7 @@ h1,h2,h3,p {
     text-align: center;
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1024px){
     main{
         grid-template-columns: repeat(2, minmax(0, 2fr));
     }

@@ -109,8 +109,9 @@ img[src*="logo"] {
     height: 40px;
 }
 
-#log img {
+#logo img {
     height: 40px;
+    border: none;
 }
 
 #logo2 {
