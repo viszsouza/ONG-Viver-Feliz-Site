@@ -248,6 +248,7 @@ footer {
     padding-top: 40px;
     padding-bottom: 20px;
     color: var(--preto);
+    background-color: white;
 }
 
 footer a{
@@ -283,6 +284,10 @@ footer a:hover{
 .container-footer h3{
     margin-bottom: 16px;
     font-weight: bold;
+}
+
+#redes{
+    margin-left: 25px;
 }
 
 .redes-sociais{
@@ -328,7 +333,7 @@ footer a:hover{
 
 #copyright {
     text-align: center; /* Alinhe para a direita */
-    background-color: var(--azul-footer);
+    background-color: white;
     padding: 10px;
 }
 

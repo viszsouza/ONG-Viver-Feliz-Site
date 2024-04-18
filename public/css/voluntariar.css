@@ -1,4 +1,4 @@
-@import url("base.css");
+@import url(base.css);
 
 main{
     background-color: var(--amarelo);
@@ -37,9 +37,7 @@ main{
     text-align: center;
 }
 
-#redes{
-    margin-left: 25px;
-}
+
 
 .texto-form-2{
     text-align: center;
