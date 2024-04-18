@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "Viver-Feliz",
+    "site": "viver-feliz",
     "public": "public",
     "ignore": [
       "firebase.json",
