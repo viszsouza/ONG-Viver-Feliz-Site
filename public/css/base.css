@@ -28,6 +28,10 @@
     border: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Montserrat Semibold;
+    src: url(fonts/NotoSansLaoLooped-VariableFont_wdth\,wght.ttf) format('truetype');
+    font-family: Texto;
+    src: url(fonts/GloriaHallelujah-Regular.ttf) format('truetype');
 }
 
 body { 
@@ -41,16 +45,7 @@ body {
 main {
     flex: 1; 
 }
-@font-face {
-    font-family: Montserrat Semibold;
-    src: url(fonts/NotoSansLaoLooped-VariableFont_wdth\,wght.ttf) format('truetype');
-}
 
-@font-face {
-    font-family: Texto;
-    src: url(fonts/GloriaHallelujah-Regular.ttf) format('truetype');
-    
-}
 
 h1,h2,h3,p {
     font-family: Montserrat Semibold;
