@@ -43,12 +43,12 @@ main {
 }
 @font-face {
     font-family: Montserrat Semibold;
-    src: url(/fonts/NotoSansLaoLooped-VariableFont_wdth\,wght.ttf) format('truetype');
+    src: url(fonts/NotoSansLaoLooped-VariableFont_wdth\,wght.ttf) format('truetype');
 }
 
 @font-face {
     font-family: Texto;
-    src: url(/fonts/GloriaHallelujah-Regular.ttf) format('truetype');
+    src: url(fonts/GloriaHallelujah-Regular.ttf) format('truetype');
     
 }
 
