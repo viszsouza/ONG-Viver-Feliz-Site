@@ -49,6 +49,10 @@ h1,h2,h3,p {
     font-family: "Montserrat", sans-serif;
 }
 
+p{
+    font-weight: 500;
+}
+
 /*Header*/
 header {
     display: flex;
