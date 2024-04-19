@@ -2,6 +2,10 @@
 
 main{
     background-color: var(--amarelo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px 40px 20px;
 }
 
 body {
@@ -9,11 +13,15 @@ body {
     padding: 0;
 }
 .container {
+    max-width: 1000px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    gap: 30px;
 }
+
+.text-sobre{
+    text-align: justify;
+}
+
 .content {
     max-width: 1000px; 
     width: 100%;
@@ -39,9 +47,10 @@ body {
 .about-texto{
     margin-bottom: 10px;
 }
-.image {
-    flex: 1;
-    padding: 5px;
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 #texto-corpo{
@@ -58,12 +67,10 @@ body {
     border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
-    .content {
+    .container {
         flex-direction: column;
     }
     .about, .image {
-        flex: auto;
-        padding: 10px;
     }
 }
 
