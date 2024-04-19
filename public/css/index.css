@@ -69,10 +69,11 @@ body {
 }
 
 .acoes-containers-1{
-    background-color: var(--vermelho);
+    background-color: rgba(226, 17, 17, 0.5);
     width: 500px;
     padding: 20px;
     border-radius: 25px;
+    border: solid 1px black;
 }
 
 .acoes-containers-1 h2{
@@ -95,6 +96,100 @@ body {
 }
 
 .acoes-containers-1 button:hover{
+    transform: scale(1.1);
+}
+
+.acoes-containers-2{
+    background-color: rgba(0, 95, 207, 0.5);
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 1px black;
+}
+
+.acoes-containers-2 h2{
+    margin-bottom: 15px;
+}
+
+.acoes-containers-2 p{
+    margin-bottom: 20px;
+}
+
+.acoes-containers-2 button{
+    background-color: var(--amarelo);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: var(--preto);
+    font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+
+.acoes-containers-2 button:hover{
+    transform: scale(1.1);
+}
+
+
+.acoes-containers-3{
+    background-color: rgba(221, 226, 17, 0.5);
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 1px black;
+}
+
+.acoes-containers-3 h2{
+    margin-bottom: 15px;
+}
+
+.acoes-containers-3 p{
+    margin-bottom: 20px;
+}
+
+.acoes-containers-3 button{
+    background-color: var(--amarelo);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: var(--preto);
+    font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+
+.acoes-containers-3 button:hover{
+    transform: scale(1.1);
+}
+
+.acoes-containers-4{
+    background-color: rgba(6, 96, 31, 0.3);
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    border: solid 1px black;
+}
+
+.acoes-containers-4 h2{
+    margin-bottom: 15px;
+}
+
+.acoes-containers-4 p{
+    margin-bottom: 20px;
+}
+
+.acoes-containers-4 button{
+    background-color: var(--amarelo);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: var(--preto);
+    font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+
+.acoes-containers-4 button:hover{
     transform: scale(1.1);
 }
 
