@@ -33,15 +33,24 @@ form input {
     border-radius: 20px;
 }
 
-button {
-    margin-bottom: 5px;
-    padding: 5px;
-    width: 80px;
-    border: 1px solid silver;
-    border-radius: 20px;
-    cursor: pointer;
-    color: white;
+.titulorespon {
+    margin-top: 20px;
+}
+
+
+button{
     background-color: #005FCF;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 footer {
