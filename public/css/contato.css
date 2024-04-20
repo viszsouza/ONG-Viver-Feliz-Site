@@ -8,11 +8,6 @@ main{
     margin-top: 50px;
 }
 
-.textos-inicio h1{
-}
-
-.textos-inicio p{ 
-}
 
 .bg-form{
     background-color: var(--branco);
@@ -50,6 +45,12 @@ main{
     max-width: 1200px;
     padding: 0px 8px 0px 8px;
     margin-bottom: 50px;
+    width: 100%; 
+    max-width: 200%; 
+    min-height: 100px; 
+    border-radius: 5px; 
+    padding: 5px; 
+    box-sizing: border-box; 
 }
 
 .form input{
@@ -66,9 +67,16 @@ form button{
     color: var(--branco);
     cursor: pointer; 
 }
+
 #caixa-mensagem{
-    width: 203%;
+    width: 100%; 
+    max-width: 200%; 
+    min-height: 100px; 
+    border-radius: 5px; 
+    padding: 5px; 
+    box-sizing: border-box; 
 }
+
 
 .bg-loader{
     position: fixed;
