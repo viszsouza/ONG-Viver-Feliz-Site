@@ -13,7 +13,7 @@ function closeNav() {
 const buttonForm = document.getElementById("btn-form")
 const loader = document.getElementById("loader")
 
-buttonForm.addEventListener("click", function(){
+buttonForm.addEventListener("click", function() {
 
     loader.style.visibility = "visible"
 

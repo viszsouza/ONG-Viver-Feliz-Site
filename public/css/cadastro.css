@@ -9,11 +9,9 @@ main{
     margin-top: 50px;
 }
 
-.textos-inicio h1{
-}
-
-.textos-inicio p{
-
+form button:disabled {
+    background-color: #ccc; /* cor de fundo cinza */
+    cursor: not-allowed; /* cursor indisponível */
 }
 
 .bg-form{

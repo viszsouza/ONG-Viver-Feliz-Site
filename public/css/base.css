@@ -80,6 +80,7 @@ header > ul {
 
 header ul li {
     padding: 10px;
+    background-color: transparent;
 }
 
 .cadastro-button{
@@ -141,11 +142,21 @@ img[src*="logo"] {
 
 #myNav {
     display: none;
+    background-color: rgba(5, 43, 167, 0.7); /* numero final mexe na opacidade */
 }
+
 
 #borrar {
     display: none;
-}
+
+        backdrop-filter: blur(5px); 
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: -1; 
+    }
+
 
 .overlay {
     display: none;
@@ -222,10 +233,9 @@ img[src*="logo"] {
     .loginnavmob {
         display: flex;
         align-items: center;
-        padding: 15%;
-        padding-left: 3%;
-        padding-bottom: 10%;
-        border-bottom: 3px inset black;
+        padding: 4%;
+        padding-bottom: 4%;
+        border-bottom: 4px inset black;
         background-color: var(--azul-claro);
     }
 
@@ -235,6 +245,10 @@ img[src*="logo"] {
 
     .overlay ul li {
         border-bottom: 1px inset black;
+    }
+
+    header {
+        position: fixed; /* garante que a navbar permaneça fixa no topo */
     }
 
 }
