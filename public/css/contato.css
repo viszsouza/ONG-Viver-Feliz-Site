@@ -35,6 +35,10 @@ main{
     margin-top: 50px;
 }
 
+button {
+    margin-bottom: 10px;
+}
+
 .form{
     display: grid;
     grid-template-columns: repeat(1);
