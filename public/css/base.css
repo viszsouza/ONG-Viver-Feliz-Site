@@ -184,6 +184,10 @@ header ul li {
         margin-top: 50px;
     }
 
+    .textos-inicio{
+        margin-top: 200px;
+    }
+
     .overlay {
         display: block;
         width: 0%;
