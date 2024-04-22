@@ -66,11 +66,15 @@ body {
     display: block;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 950px){
+    
+}
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
-    }
-    .about, .image {
+        margin-top: 50px;
     }
 }
 

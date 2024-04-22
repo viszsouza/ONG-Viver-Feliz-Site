@@ -321,13 +321,29 @@ body {
         flex-direction: column;
     }
 
+    .acoes-containers-1{
+        width: 80%;
+    }
+
+    .acoes-containers-2{
+        width: 80%;
+    }
+
+    .acoes-containers-3{
+        width: 80%;
+    }
+
+    .acoes-containers-4{
+        width: 80%;
+    }
+
     .container-festas{
         flex-direction: column;
         margin-bottom: 50px;
     }
 
     .img-festa img{
-        width: 400px;
+        width: 100%;
     }
 
     .blog-itens{

@@ -12,7 +12,7 @@ main{
     margin-right: auto;
     margin-top: 50px;
     max-width: 1200px;
-    padding: 0px 8px 0px 8px;
+    padding: 0px 20px 0px 20px;
     margin-bottom: 50px;
 }
 
@@ -20,13 +20,13 @@ main{
 .container {
     background-color: var(--azul);
     border-radius: 25px;
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     box-shadow: var(--shadow);
 }
 
 .img-container img{
-    width: 500px;
+    width: 100%;
     height: 385px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
@@ -35,19 +35,22 @@ main{
 .textos{
     display: block;
     align-items: center;
-    width: 500px;
+    width: 100%;
     padding: 30px;
     color: var(--branco);
 }
 
 .textos h2{
+    width: 100%;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .textos p{
+    width: 100%;
     font-weight: 500;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 .textos button{
@@ -64,12 +67,16 @@ main{
 }
 
 .titulo-ajudar{
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
 }
 
 @media (min-width: 1024px){
     main{
         grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+
+    .titulo-ajudar{
+        margin-top: 20px;
     }
 }
