@@ -295,6 +295,12 @@ body {
     width: 20%;
 }
 
+.text-depoimentos img{
+    border-radius: 50%;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
 .text-depoimentos h3{
     font-size: 20px;
     margin-bottom: 20px;
