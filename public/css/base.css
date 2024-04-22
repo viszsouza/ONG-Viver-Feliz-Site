@@ -103,13 +103,14 @@ header ul li {
     padding: 30px;
 }
 
-img[src*="logo"] {
-    height: 40px;
+#logo {
+    display: flex;
+    align-items: center;
 }
 
 #logo img {
     height: 40px;
-    border: none;
+    margin-right: 10px;
 }
 
 #logo2 {
